@@ -12,7 +12,7 @@ export default function Home() {
     <main className=''>
      <div className='border-b'>
       <div className="px-8 md:px-24">
-          <nav className="flex items-center gap-14 text-sm py-3">
+          <nav className="flex items-center gap-6 md:gap-14 text-sm py-3">
             {navItems.map((item, index) => (
               <div 
                 key={index} 
